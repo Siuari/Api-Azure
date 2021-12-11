@@ -39,6 +39,3 @@ steps:
     command: 'test'
     projects: 'Testes/Testes.csproj'
     testRunTitle: 'Testes Unitários'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
