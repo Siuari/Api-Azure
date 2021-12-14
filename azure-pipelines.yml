@@ -42,5 +42,5 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'publish'
-    publishWebProjects: true
+    command: 'run'
+    projects: 'Api-Azure/Api-Azure.csproj'
